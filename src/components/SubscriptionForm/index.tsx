@@ -42,7 +42,9 @@ function SubscriptionForm({ className = '', onSubmit, ...props }: React.HTMLProp
           value={email}
           onChange={handleChange}
           placeholder="Your email address..."
-          className="w-full h-10 sm:h-14 px-8 rounded-full border border-secondary focus:border-primary placeholder-secondary-placeholder text-xs sm:text-base transition-colors"
+          className={`w-full h-10 sm:h-14 px-8 rounded-full border ${
+            error ? 'border-error' : 'border-secondary focus:border-primary'
+          } placeholder-secondary-placeholder text-xs sm:text-base transition-colors`}
         />
         {error && (
           <p
