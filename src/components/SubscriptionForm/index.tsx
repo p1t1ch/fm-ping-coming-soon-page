@@ -21,6 +21,7 @@ function SubscriptionForm({ className = '', onSubmit, ...props }: React.HTMLProp
     e.preventDefault()
     if (!email || error) return
     if (onSubmit) onSubmit(e)
+    setEmail('')
     alert(`${email} was successfuly added to the mailing list`)
   }
 
