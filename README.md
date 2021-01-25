@@ -12,3 +12,6 @@
 </p>
 
 For this challenge:
+
+1. Practice with Tailwind (round 6)
+1. Created controlled input with vanilla React
