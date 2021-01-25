@@ -1,2 +1,5 @@
 import 'focus-visible'
+import '@fontsource/libre-franklin/latin-300.css'
+import '@fontsource/libre-franklin/latin-600.css'
+import '@fontsource/libre-franklin/latin-700.css'
 import '@/styles/global.css'
