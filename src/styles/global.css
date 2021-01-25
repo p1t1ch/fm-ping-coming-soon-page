@@ -10,6 +10,12 @@
   body {
     @apply text-xl font-light bg-white text-neutral;
   }
+
+  input:focus,
+  button:focus,
+  a:focus {
+    @apply outline-none;
+  }
 }
 
 @layer utilities {

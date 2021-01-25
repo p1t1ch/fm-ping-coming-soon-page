@@ -6,7 +6,7 @@ interface SocialsProps extends React.HTMLProps<HTMLUListElement> {
 
 function Socials({ children, className = '', ...props }: SocialsProps) {
   return (
-    <ul className={`grid grid-flow-col gap-3 lg:gap-4 ${className}`} {...props}>
+    <ul className={`grid grid-flow-col justify-center gap-3 lg:gap-4 ${className}`} {...props}>
       {Children.map(children, child => (
         <li>{child}</li>
       ))}
