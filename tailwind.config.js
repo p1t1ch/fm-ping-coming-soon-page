@@ -21,6 +21,16 @@ module.exports = {
       fontFamily: {
         sans: ['Libre Franklin', ...defaultTheme.fontFamily.sans],
       },
+      opacity: {
+        15: '.15',
+      },
+    },
+  },
+  variants: {
+    extend: {
+      textColor: ['focus-visible'],
+      backgroundColor: ['focus-visible'],
+      borderOpacity: ['focus-visible'],
     },
   },
 }
