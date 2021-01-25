@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://app.netlify.com/sites/p1t1ch-fm-ping-coming-soon-page/deploys">
     <img
-      src="https://api.netlify.com/api/v1/badges/289355cc-ded7-49d3-a4a9-945f60bcc799/deploy-status"
+      src="https://api.netlify.com/api/v1/badges/c3618531-7dd4-4c15-bca5-0c62fd91398a/deploy-status"
       alt="Netlify Status"
     />
   </a>
